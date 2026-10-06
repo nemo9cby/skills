@@ -1,0 +1,8 @@
+{
+  "name": "nemo9cby",
+  "owner": { "name": "nemo9cby", "url": "https://github.com/nemo9cby" },
+  "description": "nemo9cby's personal skills as an installable Claude Code plugin.",
+  "plugins": [
+    { "name": "nemo-skills", "source": "./", "description": "Personal reusable agent skills.", "category": "productivity" }
+  ]
+}

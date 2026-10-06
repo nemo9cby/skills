@@ -1,0 +1,12 @@
+{
+  "name": "nemo-skills",
+  "version": "0.1.0",
+  "description": "nemo9cby's personal, reusable agent skills. Works across Claude Code, Codex and other Agent-Skills harnesses on Windows, WSL, Linux and macOS.",
+  "author": { "name": "nemo9cby", "url": "https://github.com/nemo9cby" },
+  "repository": "https://github.com/nemo9cby/skills",
+  "license": "MIT",
+  "keywords": ["skills", "code-walkthrough", "documentation"],
+  "skills": [
+    "./skills/annotated-walkthrough"
+  ]
+}
