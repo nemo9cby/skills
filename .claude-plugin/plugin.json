@@ -9,6 +9,7 @@
   "skills": [
     "./skills/annotated-walkthrough",
     "./skills/learn",
-    "./skills/analyze-company"
+    "./skills/analyze-company",
+    "./skills/socratic"
   ]
 }
