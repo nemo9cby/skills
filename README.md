@@ -10,6 +10,7 @@ Each skill is a folder under `skills/` with a `SKILL.md` (frontmatter `name` + `
 |---|---|
 | [annotated-walkthrough](./skills/annotated-walkthrough/SKILL.md) | Write an idlemachines-style annotated walkthrough of one critical code path: full code first, a failure-ordering table, then line-by-line dissection. |
 | [learn](./skills/learn/SKILL.md) | Deep learning coach for any topic: Waitzkin's Art of Learning plus Karpathy's from-scratch method, in phases from diagnosis and fundamentals to hands-on struggle and refinement. |
+| [analyze-company](./skills/analyze-company/SKILL.md) | Fundamental company analysis from filings and business drivers: SOTP and DCF valuation, market-implied expectations, and a quarterly checklist to test the thesis. |
 
 ## Install
 
