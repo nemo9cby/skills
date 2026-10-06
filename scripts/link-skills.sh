@@ -10,7 +10,7 @@ set -euo pipefail
 REPO="$(cd "$(dirname "$0")/.." && pwd)"
 if [ $# -gt 0 ]; then DESTS=("$@"); else DESTS=("$HOME/.claude/skills" "$HOME/.agents/skills"); fi
 
-# Git Bash on Windows copies by default; force real symlinks.
+# Git Bash on Windows copies by default; ask for a native symlink/junction instead.
 case "$(uname -s)" in MINGW*|MSYS*) export MSYS=winsymlinks:native ;; esac
 
 for DEST in "${DESTS[@]}"; do
@@ -20,6 +20,8 @@ for DEST in "${DESTS[@]}"; do
     if [ -e "$target" ] && [ ! -L "$target" ]; then
       echo "skip  $name: $target is a real directory, remove it first to link" >&2; continue
     fi
-    ln -sfn "$src" "$target" && echo "link  $name -> $src  ($DEST)"
+    ln -sfn "$src" "$target"
+    if [ -L "$target" ]; then echo "link  $name -> $src  ($DEST)"
+    else echo "warn  $name: $target is a COPY, not a link (enable Developer Mode on Windows)" >&2; fi
   done
 done

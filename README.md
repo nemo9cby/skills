@@ -20,7 +20,7 @@ git clone git@github.com:nemo9cby/skills.git ~/Projects/skills
 ~/Projects/skills/scripts/link-skills.sh ~/.codex/skills    # any other dir
 ```
 
-On Windows run it from Git Bash with Developer Mode enabled so `ln -s` makes real symlinks.
+On Windows run it from Git Bash. The script asks for native links (`MSYS=winsymlinks:native`) and warns if it had to fall back to a copy.
 
 **Claude Code plugin.** Managed, read-only bundle:
 
