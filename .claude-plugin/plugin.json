@@ -7,6 +7,7 @@
   "license": "MIT",
   "keywords": ["skills", "code-walkthrough", "documentation"],
   "skills": [
-    "./skills/annotated-walkthrough"
+    "./skills/annotated-walkthrough",
+    "./skills/learn"
   ]
 }

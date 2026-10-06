@@ -9,6 +9,7 @@ Each skill is a folder under `skills/` with a `SKILL.md` (frontmatter `name` + `
 | Skill | What it does |
 |---|---|
 | [annotated-walkthrough](./skills/annotated-walkthrough/SKILL.md) | Write an idlemachines-style annotated walkthrough of one critical code path: full code first, a failure-ordering table, then line-by-line dissection. |
+| [learn](./skills/learn/SKILL.md) | Deep learning coach for any topic: Waitzkin's Art of Learning plus Karpathy's from-scratch method, in phases from diagnosis and fundamentals to hands-on struggle and refinement. |
 
 ## Install
 
